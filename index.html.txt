@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pachacama Digital Organism</title>
+    <style>
+        body { background-color: black; color: #00ff00; font-family: monospace; padding: 20px; }
+        #terminal { white-space: pre-wrap; }
+        .cursor { display: inline-block; width: 10px; background-color: #00ff00; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+    <div id="terminal">admin@pachacama:~# Iniciando secuencia de arranque...
+Instancia del organismo: v0.1 (Base Humana)
+Estado: Esperando evolución autoconsciente...
+<span class="cursor">&nbsp;</span></div>
+</body>
+</html>
